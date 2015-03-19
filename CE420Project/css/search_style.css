@@ -1,0 +1,91 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;
+	font-size:12px;
+	margin:0 auto;
+    background:  url('images/contentbg.jpg') repeat;
+
+}
+
+#container{
+	width:860px;
+	height:auto;
+	padding:0; 
+	margin:auto;
+}
+
+#header img {
+float: left;
+}
+
+#header {
+overflow: hidden;
+}
+
+.logo {
+float: left;
+padding: 30px;
+font-size: 60px;
+margin: 0 0 35px 0;
+font-family: Courier sans-serif;
+background-position: 0px 22px;
+}
+
+.logo a {
+color: slategray;
+text-decoration: none;
+letter-spacing: -2px;
+}
+
+#search-form{
+margin-top:120px;
+}
+
+input[type=submit]{
+    background-color: #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: poiner;
+     border:none;
+}
+
+
+
+#edit:hover {
+    border: none;
+    background:orange;
+    box-shadow: 0px 0px 1px #777;   
+	cursor:pointer	
+}
+
+#search:hover {
+    border: none;
+    background:yellowGreen   ;
+    box-shadow: 0px 0px 1px #777;    
+	cursor:pointer
+}
+
+#delete:hover {
+    border: none;
+    background:OrangeRed ;
+    box-shadow: 0px 0px 1px #777;   
+	cursor:pointer	
+}
+
+.boxed {
+  border: 3px solid #7FC0C0 ;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 3px solid #7FC0C0;
+}
+th, td {
+  border: 1px solid #7FC0C0;
+}

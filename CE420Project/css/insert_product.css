@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2013, 9:42:13 PM
+    Author     : Dimitris
+*/
+#insert_product{
+    width:auto;
+    height: auto;
+}
+
+
+#insert_product_form{
+    width:auto;
+    height: auto;
+    margin:60px;
+    padding: 10px;
+}
+
+#insert_product_form p{
+    text-align: center;
+    font-family: Arial sans-serif;
+    font-size: 20px; 
+}
+
+
+p.insert_p input[type=text]{
+      font-size: 18px;
+      height: 25px;
+      padding: 2px; 
+      border-radius: 5px;
+      border:1px solid rgba(204,48,48, 0.5);
+}
+
+p.insert_p input[type=text]:hover {
+	background:#F0F0F0;
+}
+
+p.insert_p input[type=text]:focus {
+	background:#F0F0F0;;
+}
+
+p.insert_p input[type=radio]{
+      text-align: center;
+      font-size: 18px;
+      height: 25px;
+      //padding: 2px; 
+}
+
+p.insert_file input[type=file]{
+      margin:0 0 30px 40px;
+      font-size: 18px;
+      height: 25px;
+      padding: 2px; 
+      border-radius: 5px;
+      border:1px solid rgba(204,48,48, 0.5);
+}
+
+p.insert_p input[type=submit]{
+      font-size:18px;
+      padding: 2px; 
+      border-radius: 5px;
+      margin: 4px; 
+      border:1px solid rgba(204,48,48, 0.5);
+
+}
+
+p.insert_p input[type=submit]:hover {
+	background:#dddddd;
+}
+
+p.insert_p input[type=reset]{
+      font-size:18px;
+      padding: 2px; 
+      border-radius: 5px;
+      margin: 4px; 
+      border:1px solid rgba(204,48,48, 0.5);
+
+}
+
+p.insert_p input[type=reset]:hover {
+	background:#dddddd;
+}
+
+
+p.insert_p input[type=password]{
+      font-size: 18px;
+      height: 25px;
+      padding: 2px; 
+      border-radius: 5px;
+      border:1px solid rgba(204,48,48, 0.5);
+}
+
+p.insert_p input[type=password]:hover {
+	background:#F0F0F0;
+}
+
+p.insert_p input[type=password]:focus {
+	background:#F0F0F0;;
+}
+
+
+p.insert_p select{
+      font-size: 18px;
+      width:440px;
+      height: 33px;
+      padding: 2px; 
+      border-radius: 5px;
+      border:1px solid rgba(204,48,48, 0.5);
+}
+
+
+
+
+#alternative_footer {
+ width: auto;
+ height: auto;
+ padding:10px;
+ clear: both;
+ position: relative;
+ z-index: 100;
+ margin-top: 30em;
+ background-color: slategray;
+ border-radius: 20px;
+}
+
+#alternative_footer_menu{
+    float:right;
+    
+}
+
+#alternative_footer_menu ul li{
+    display: inline;
+    padding: 10px;
+}
+
+#alternative_footer_menu ul li a{
+    text-decoration: none;
+    color: #7FC0C0;
+}
+
+#alternative_footer_menu ul li a:hover{
+    font-weight:800;
+    color:coral;
+}
+
+p.copy_class{  
+    text-align: center;  
+    margin:0 10px 20px 90px;
+}
+
+
+

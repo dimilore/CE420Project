@@ -1,0 +1,434 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2013, 8:42:01 PM
+    Author     : Dimitris
+*/
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;
+	font-size:12px;
+	margin:0 auto;
+    background:  url('images/contentbg.jpg') repeat;
+}
+
+#container{
+	width:860px;
+	height:auto;
+	padding:0; 
+	margin:auto;
+}
+/*=================header and logo image start=================*/
+#header{ 
+	width:860px; 
+	height:auto;
+        padding: 0;
+        margin:0;
+}
+
+#header img{
+	float: left;
+}
+
+.logo{
+	float:left;
+	padding:30px;
+	font-size:60px;
+	margin: 0 0 35px 0;
+        font-family: Courier sans-serif;
+	background-position:0px 22px;
+}
+
+.logo a{ 
+	color:slategray;
+        
+	text-decoration:none; 
+        
+	letter-spacing:-2px;
+}
+/*=================header and logo image ends=================*/
+
+
+
+/*=================menu and image starts=================*/
+#leftsidebar{     
+      float: left;
+      width: 200px;
+      height: auto;
+      padding:0px;
+      margin: -5px;
+      
+}
+    
+#leftsidebar ul {
+      list-style-type: none;
+      padding:0;
+      margin:0;  
+}
+    
+#leftsidebar ul li {
+      background-color: #7FC0C0;
+      border-radius: 5px;
+      border: solid thin #999;
+      height: 55.5px;
+      margin: 5px 0 0 0;
+      padding: 2px;
+      text-align: center;
+      font-size: 25px;
+}
+    
+#leftsidebar ul li a {
+      color: slategray;
+      text-decoration: none; 
+}
+
+#leftsidebar ul li a:hover {
+      font-weight: 900; 
+}
+
+.img_class{
+    display:inline;
+    width: 640px;
+    height: 260px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: solid thin #999;
+}
+/*=================menu and image ends=================*/
+
+
+
+/*=================main starts=================*/
+.leftbox{
+    width:200px;
+    height: 20px;
+    float:left;
+    margin: 25px 30px;
+    padding: 10px;  
+}
+.leftbox h2{
+    color: slategray;
+}
+.leftbox a{
+    text-decoration: none;
+    color: coral;
+}
+.leftbox a:hover{
+    font-weight:800;
+}
+
+.leftbox_center{
+    width:200px;
+    height: 20px;
+    float:left;
+    margin:  25px 30px;
+    padding: 10px;
+}
+.leftbox_center h2{
+    color: slategray;
+}
+.leftbox_center a{
+    text-decoration: none;
+    color: coral;
+}
+.leftbox_center a:hover{
+    font-weight:800;
+}
+
+
+.leftbox_right{
+    width:200px;
+    height: 20px;
+    float:left;
+    margin: 25px 30px;
+    padding: 10px;
+}
+.leftbox_right h2{
+    color: slategray;
+}
+.leftbox_right a{
+    text-decoration: none;
+    color:coral;
+}
+.leftbox_right a:hover{
+    font-weight:800;
+}
+/*=================main ends=================*/
+
+
+
+/*=================footer starts=================*/
+#footer {
+ width: 840px;
+ height: auto;
+ padding:10px;
+ clear: both;
+ position: relative;
+ z-index: 100;
+ margin-top: 30em;
+ background-color: slategray;
+ border-radius: 20px;
+}
+
+#footer_menu{
+    float:right;
+    
+}
+
+#footer_menu ul li{
+    display: inline;
+    padding: 10px;
+}
+
+#footer_menu ul li a{
+    text-decoration: none;
+    color: #7FC0C0;
+}
+
+#footer_menu ul li a:hover{
+    font-weight:800;
+    color:coral;
+}
+
+p.copy_class{  
+    text-align: center;  
+    margin:0 10px 20px 90px;
+}
+/*=================footer ends=================*/
+
+
+
+/*=================about  starts=================*/
+#about{
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial sans-serif;
+    font-size: 17px;
+}
+/*=================about  ends=================*/
+
+
+
+/*=================contact form starts=================*/
+#contact{
+    height: auto;
+    margin:30px;
+    padding: 10px;
+}
+
+#contact p{
+    text-align: center;
+    font-family: Arial sans-serif;
+    font-size: 20px;   
+}
+
+#contact p a{
+       text-decoration: none;
+}
+
+#contact p a:hover{
+    color:coral;
+}
+
+
+#contact h1{
+    text-align:center;
+    font-family: Arial sans-serif;
+    color:slategray;
+    font-size: 35px;
+}
+
+p.contact_p input[type=text]{
+      font-size: 18px;
+      height: 25px;
+      padding: 2px; 
+      border-radius: 5px;
+      border:1px solid rgba(204,48,48, 0.5);
+}
+
+p.contact_p input[type=text]:hover {
+	background:#F0F0F0;
+}
+
+p.contact_p input[type=text]:focus {
+	background:#F0F0F0;;
+}
+
+textarea{
+      font-size: 18px;
+      padding: 2px; 
+      border-radius: 5px;
+      margin: 4px; 
+      border:1px solid rgba(204,48,48, 0.5);
+}
+
+textarea:hover {
+     background:#F0F0F0;
+}
+
+textArea:focus{
+    background:#F0F0F0;
+}
+
+p.contact_p input[type=submit]{
+      font-size:18px;
+      padding: 2px; 
+      border-radius: 5px;
+      margin: 4px; 
+      border:1px solid rgba(204,48,48, 0.5);
+
+}
+
+p.contact_p input[type=submit]:hover {
+	background:#dddddd;
+}
+
+p.contact_p input[type=reset]{
+      font-size:18px;
+      padding: 2px; 
+      border-radius: 5px;
+      margin: 4px; 
+      border:1px solid rgba(204,48,48, 0.5);
+
+}
+
+p.contact_p input[type=reset]:hover {
+	background:#dddddd;
+}
+/*=================contact form ends=================*/
+
+/*==========================================================================*/
+
+/*=================login form starts=================*/
+#login{
+float:left;
+border:2px solid #a1a1a1;
+padding:15px 15px; 
+background:#dddddd;
+width:350px;
+min-height:350px;
+margin:0 250px 0;
+border-radius:25px;
+box-shadow: 10px 10px 10px 5px rgba(255,255,255,255);
+}
+
+#login {
+    text-align: center;
+    font-size: 35px;
+    color: slategray;
+}
+
+#login_header{
+    width:960px; 
+    height:auto;
+    padding: 0;
+    margin:0 30px 30px 110px;
+}
+
+p.message {
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+font-family: Courier sans-serif;
+margin: 0;
+padding: 0;
+color: red;
+}
+
+#login_header img{
+    float: left;
+    margin:0 20px 10px 10px;
+}
+
+p.login_header{
+    font-family: Courier sans-serif;
+}
+
+p.input_p input[type=text]{
+      font-size:20px;
+      height: 30px;
+      padding: 2px; 
+      border-radius: 5px;
+      border:1px solid rgba(204,48,48, 0.5);
+}
+
+p.input_p input[type=text]:hover {
+	background:#F0F0F0;
+}
+
+p.input_p input[type=text]:focus {
+	background:#F0F0F0;;
+}
+
+p.input_p input[type=password]{
+      font-size:20px;
+      height: 30px;
+      padding: 2px; 
+      border-radius: 5px;
+      border:1px solid rgba(204,48,48, 0.5);
+
+}
+
+p.input_p input[type=password]:hover {
+	background:#F0F0F0;
+}
+
+p.input_p input[type=password]:focus {
+	background:#F0F0F0;
+}
+
+p.input_p input[type=submit]{
+      font-size:20px;
+      padding: 2px; 
+      border-radius: 5px;
+      margin: 4px; 
+      border:1px solid rgba(204,48,48, 0.5);
+
+}
+
+p.input_p input[type=submit]:hover {
+	background:#dddddd;
+}
+
+p.input_p input[type=reset]{
+      font-size:20px;
+      padding: 2px; 
+      border-radius: 5px;
+      margin: 4px; 
+      border:1px solid rgba(204,48,48, 0.5);
+
+}
+
+p.input_p input[type=reset]:hover {
+	background:#dddddd;
+}
+
+
+
+p.input_p{
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+
+a.input_p{
+    text-align: center;
+    text-decoration: none;
+    font-size:20px;
+    font-family: Courier sans-serif;
+    margin: 0;
+    padding:0;
+    color:slategray;
+}
+
+a.input_p:hover{
+    color:coral;
+}
+/*=================login form ends=================*/
+
+
